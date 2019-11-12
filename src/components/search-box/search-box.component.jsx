@@ -7,6 +7,7 @@ export const SearchBox = props => {
 
     return ( 
         <input 
+            className='search'
             type='search' 
             placeholder={placeholder} 
             onChange={handleChange}
